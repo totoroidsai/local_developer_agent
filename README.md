@@ -4,7 +4,11 @@ The simplest way to get a local developer that can convert your requirements int
 # Prerequisites
 Running Docker instance
 Download Ollama (this example uses llama3.2-vision - just replace with whatever ollama you have running locally
-'''
+
+# Run
+```
 pip install crewai
 pip install litellm
-'''
+
+python agent.py
+```
